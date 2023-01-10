@@ -3,5 +3,12 @@ div{
     border: 10px solid maroon;
     padding: 50px;
     margin: 50px;
+    border-style: inset;
+    outline: rebeccapurple solid 40px;
     background-color: azure;
+    outline-offset: 5px;
+}
+
+h1{
+    text-shadow: 3px 3px 5px magenta;
 }
