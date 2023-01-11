@@ -17,15 +17,20 @@ div{
     margin: 0px;
     padding: 0px;
     display: inline-block;
-    width: 33%;
+    min-width: 30%;
     height: 500px;
+    position: absolute;
 }
 .one{
     background-color: blueviolet;
 }
 .two{
     background-color: maroon;
+    right: 33%;
+    max-width: 450px;
 }
 .three{
     background-color: powderblue;
+    top: 0 right;
+    right: 1%;
 }
