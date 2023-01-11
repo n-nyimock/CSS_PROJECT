@@ -1,5 +1,6 @@
-/* div{
+.great{
     width: 500px;
+    height: 200px;
     border: 10px solid maroon;
     padding: 50px;
     margin: 50px;
@@ -7,7 +8,7 @@
     outline: rebeccapurple solid 40px;
     background-color: azure;
     outline-offset: 5px;
-} */
+}
 
 h1{
     text-shadow: 3px 3px 5px magenta;
@@ -16,7 +17,15 @@ div{
     margin: 0px;
     padding: 0px;
     display: inline-block;
-    width: 30%;
-    height: 400px;
-    background: red;
+    width: 33%;
+    height: 500px;
+}
+.one{
+    background-color: blueviolet;
+}
+.two{
+    background-color: maroon;
+}
+.three{
+    background-color: powderblue;
 }
