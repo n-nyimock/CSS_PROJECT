@@ -1,4 +1,4 @@
-div{
+/* div{
     width: 500px;
     border: 10px solid maroon;
     padding: 50px;
@@ -7,8 +7,16 @@ div{
     outline: rebeccapurple solid 40px;
     background-color: azure;
     outline-offset: 5px;
-}
+} */
 
 h1{
     text-shadow: 3px 3px 5px magenta;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+    background: red;
 }
