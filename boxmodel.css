@@ -20,17 +20,25 @@ div{
     min-width: 30%;
     height: 500px;
     position: absolute;
+    padding: 2px;
 }
 .one{
     background-color: blueviolet;
+    overflow: auto;
+    max-width: 430px;
 }
 .two{
     background-color: maroon;
     right: 33%;
-    max-width: 450px;
+    max-width: 430px;
+    clip: auto;
+    overflow: scroll;
 }
 .three{
     background-color: powderblue;
     top: 0 right;
     right: 1%;
+    max-width: 430px;
+    clip: auto;
+    overflow: scroll;
 }
