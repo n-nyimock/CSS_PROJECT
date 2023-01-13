@@ -186,4 +186,16 @@ h1{
     75% {background-color: red; left: 0px; top: 200px; color:white;}
     100% {background-color: black; left: 0px; top: 0px; color: white;}
   }
-
+  #page{
+    display: inline-block;
+  }
+  #page a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+#page a:hover{
+  background: blue;
+  color: white;
+}
