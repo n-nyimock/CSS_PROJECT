@@ -140,3 +140,9 @@ h1{
   font-size: 20px;
   padding: 20px;
 }
+#radial{
+  background: red;
+  height: 300px;
+  width: 500px;
+  background-image: repeating-radial-gradient(powderblue, green 40%, magenta 60%);
+}
