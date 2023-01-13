@@ -133,17 +133,22 @@ h1{
 #color{
   /* background: red; */
   width: 500px;
+  border: 2px solid maroon;
   overflow: auto;
   height: 400px;
   background-image: radial-gradient(red 30%, green 50%, blue 70%);
   color: white;
   font-size: 20px;
   padding: 20px;
+  resize: vertical;
 }
 #radial{
   background: red;
   height: 300px;
+  border: 2px solid maroon;
+  resize: horizontal;
   width: 500px;
+  overflow: auto;
   background-image: repeating-radial-gradient(powderblue, green 40%, magenta 60%);
 }
 #trans{
