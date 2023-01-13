@@ -146,3 +146,40 @@ h1{
   width: 500px;
   background-image: repeating-radial-gradient(powderblue, green 40%, magenta 60%);
 }
+#trans{
+  width: 100px;
+  color: blueviolet;
+  height: 100px;
+  background: blueviolet;
+  transition: width 4s, height 4s, transform 4s;
+  overflow: hidden;
+  margin-left: 100px;
+}
+#trans:hover{
+  width: 500px;
+  text-align: center;
+  background: black;
+  padding: 50px;
+  height: 500px;
+  font-size: 24px;
+  color: white;
+  transform: rotate(360deg);
+}
+#demo-animation{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  animation-duration: 8s;
+  animation-name: demo;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  background-color: blueviolet;
+}
+@keyframes demo {
+    0% {background-color: blueviolet; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: green; left: 200px; top: 200px;}
+    75% {background-color: red; left: 0px; top: 200px;}
+    100% {background-color: black; left: 0px; top: 0px;}
+  }
+
